@@ -10,28 +10,23 @@ This repository publishes the builds. Download them from [Releases](https://gith
 # macOS and Linux
 curl -fsSL https://github.com/bothubcode/Code/releases/latest/download/install | bash
 
-# npm, Yarn or Bun, on any system
-npm install --global bothub-code
-yarn global add bothub-code
-bun add --global --trust bothub-code
-
 # Homebrew
 brew install bothubcode/tap/bothub-code
-
-# Arch Linux
-paru -S bothub-code-bin
-yay -S bothub-code-bin
 ```
+
+On Windows, download `bothub-code-windows-x64-baseline.zip` or `bothub-code-windows-arm64.zip` from the
+[latest release](https://github.com/bothubcode/Code/releases/latest) and put `bothub-code.exe` on your PATH.
 
 Then run `bothub-code` and connect your BotHub API key. Create a key at
 [bothub.chat/profile/for-developers](https://bothub.chat/profile/for-developers).
 
-`bothub-code upgrade` updates a copy installed any of these ways, except from the AUR, where your helper does it.
+`bothub-code upgrade` updates a copy installed with curl or Homebrew.
 
 ## Desktop app
 
 Download the installer for your system from the
-[latest release](https://github.com/bothubcode/Code/releases/latest). The app updates itself.
+[latest release](https://github.com/bothubcode/Code/releases/latest). The app is not signed yet, so Windows and macOS
+warn you when you first open it.
 
 ## Links
 
