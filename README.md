@@ -9,6 +9,9 @@ This repository publishes the builds. Download them from [Releases](https://gith
 ```bash
 # macOS and Linux
 curl -fsSL https://github.com/bothubcode/Code/releases/latest/download/install | bash
+
+# Homebrew
+brew install bothubcode/tap/bothub-code
 ```
 
 On Windows, download `bothub-code-windows-x64-baseline.zip` or `bothub-code-windows-arm64.zip` from the
@@ -17,7 +20,7 @@ On Windows, download `bothub-code-windows-x64-baseline.zip` or `bothub-code-wind
 Then run `bothub-code` and connect your BotHub API key. Create a key at
 [bothub.chat/profile/for-developers](https://bothub.chat/profile/for-developers).
 
-`bothub-code upgrade` updates a copy installed with curl.
+`bothub-code upgrade` updates a copy installed with curl or Homebrew.
 
 ## Desktop app
 
