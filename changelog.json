@@ -1,0 +1,59 @@
+{
+  "releases": [
+    {
+      "tag": "v1.0.2",
+      "highlights": [
+        {
+          "source": "desktop, terminal",
+          "title": "Models are ready in new worktrees",
+          "description": "Your BotHub models load before a session starts, so a session moved to a new worktree no longer fails its first prompt with \"Model unavailable\" while the list loads."
+        },
+        {
+          "source": "terminal",
+          "title": "Only BotHub to connect",
+          "description": "/connect and bothub-code auth login offer BotHub and your MCP servers instead of every provider in the catalog, and the getting-started card stays until BotHub is connected."
+        },
+        {
+          "source": "terminal",
+          "title": "Token counts read like CAPS",
+          "description": "The sidebar groups the digits of token counts the same way as CAPS, whatever your system language."
+        },
+        {
+          "source": "terminal",
+          "title": "Installing on Alpine",
+          "description": "The curl installer asks for apk add libstdc++ libgcc on Alpine instead of installing a binary that cannot start there."
+        },
+        {
+          "source": "desktop",
+          "title": "What's new after an update",
+          "description": "After it updates, the app shows what changed in the new version."
+        }
+      ]
+    },
+    {
+      "tag": "v1.0.1",
+      "highlights": [
+        {
+          "source": "terminal",
+          "title": "Spending in CAPS",
+          "description": "The terminal shows what a session spent in CAPS, as BotHub bills it, instead of dollars."
+        },
+        {
+          "source": "desktop, terminal",
+          "title": "Long sessions stay fast",
+          "description": "Conversations are compacted on Claude Haiku once they fill a fifth of the model's context window, keeping the newest 20,000 tokens as they are."
+        }
+      ]
+    },
+    {
+      "tag": "v1.0.0",
+      "highlights": [
+        {
+          "source": "desktop, terminal",
+          "title": "BotHub Code",
+          "description": "The AI coding agent on BotHub models, in your terminal and as a desktop app."
+        }
+      ]
+    }
+  ]
+}
